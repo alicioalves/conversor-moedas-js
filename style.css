@@ -1,0 +1,81 @@
+body {
+    background-image: url('../images/default.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Palatino Linotype', 'book Antiqua', Palatino, serif;
+}
+
+#currencySelectContainer {
+    display: block;
+    margin-top: 40px;
+}
+
+
+#exchangeResultContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px black;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 800px;
+    visibility: hidden;
+}
+
+#exchangeResultContainer h1{
+    margin: 5px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#exchangeRate {
+    margin: 5px;
+    font-size: 25px;
+}
+
+#opDate {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#exchangeResult{
+    margin: 5px;
+    font-size: 40px;
+}
+
+#listOfCurrencyOne, #listOfCurrencyTwo, #currencyAmount {
+    display: block;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px;
+    height: 50px;
+    width: 900px;
+}
+
+#currencyAmount {
+    width: 888px;
+}
+
+#exchangeButton {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Impact', 'book Antiqua', Palatino, serif;
+    font-size: 30px;
+    height: 50px;
+    width: 900px;
+    margin: 10px;
+}
+
+#title {
+    margin-left: 20px;
+}
