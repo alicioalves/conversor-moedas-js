@@ -31,8 +31,7 @@ function init(resultFromServer){
     const exchangeRateElement = document.getElementById('exchangeRate');
     const opDate = document.getElementById('opDate');
     const exchangeResultElement = document.getElementById('exchangeResult');
-
-    console.log(resultFromServer);
+    
     exchangeName.innerHTML = resultFromServer[exchangeCode].name;
     exchangeRateElement.innerHTML = `1 ${currencyOne} igual a ${exchangeRateLocale} ${currencyTwo}`;
     opDate.innerHTML = `Em: ${currentDate.getDate()} / ${currentDate.getMonth()+1} / ${currentDate.getFullYear()} ${currentDate.getHours()} : ${currentDate.getMinutes()} : ${currentDate.getSeconds()}`;
