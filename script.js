@@ -27,7 +27,6 @@ function init(resultFromServer){
         style: 'currency',
         currency: currencyTwo,
     });
-    console.log(exchangeRate, exchangeResult);
     const exchangeName = document.getElementById('exchangeName');
     const exchangeRateElement = document.getElementById('exchangeRate');
     const opDate = document.getElementById('opDate');
