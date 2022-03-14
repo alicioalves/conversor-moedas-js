@@ -6,7 +6,7 @@ let resultFormat = {style: 'currency', currency: currencyTwo};
 
 
 function getExchangeRate(){
-    fetch(`http://economia.awesomeapi.com.br/json/last/${currencyOne}-${currencyTwo}`).then(result => {
+    fetch(`https://economia.awesomeapi.com.br/json/last/${currencyOne}-${currencyTwo}`).then(result => {
         if(result.ok)
             return result.json();
         else
