@@ -20,6 +20,7 @@ body {
     padding: 50px;
     border-radius: 10px;
     width: 800px;
+    visibility: hidden;
 }
 
 #exchangeResultContainer h1{
